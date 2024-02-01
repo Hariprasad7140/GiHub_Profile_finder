@@ -1,6 +1,6 @@
 function fetchGitHubData() {
     const username = document.getElementById('username').value;
-    const token = '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'; // Replace with your actual token 
+    const token = 'Replace with your actual token'; // Replace with your actual token 
 
     // Fetch user profile data
     fetch(`https://api.github.com/users/${username}`, {
